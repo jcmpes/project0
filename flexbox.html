@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Project0</title>
+        <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+          }
+        </script>
+
+    </head>
+    <body>
+      <!-- NAV MENU -->
+        <div class="topnav" id="myTopnav">
+          <a href="index.html">Home</a>
+          <a href="cards.html">Cards</a>
+          <a href="grid.html">Grid</a>
+          <a href="flexbox.html" class="active">Flexbox</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      <!-- END OF NAV MENU -->
+      <div class="container">
+        <div id="flexbox">
+          <div>Aqui el texto</div>
+          <div>Aqui el texto</div>
+          <div>Aqui el texto</div>
+          <div>Aqui el texto</div>
+          <div>Aqui el texto</div>
+          <div>Aqui el texto</div>
+          <div>Aqui el texto</div>
+          <div>Aqui el texto</div>
+        </div>
+      </div>
+    </body>
+</html>
