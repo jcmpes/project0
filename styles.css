@@ -1,15 +1,21 @@
 .container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  justify-items: center;
-  justify-content: space-between;
-  padding: 15px;
+
 }
+
 
 body {
   min-width: 250px;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+#home-table {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-items: center;
+  justify-content: space-between;
+  padding: 15px;
+
 }
 
 #flexbox {
@@ -24,6 +30,10 @@ body {
   margin: 20px;
   padding: 20px;
   width: 200px;
+}
+
+#pic {
+  padding: 15px;
 }
 
 /* NAV MENU STYLING*/
