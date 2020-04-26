@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Project0</title>
+        <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+          }
+        </script>
+
+    </head>
+    <body>
+      <!-- NAV MENU -->
+        <div class="topnav" id="myTopnav">
+          <a href="index.html">Home</a>
+          <a href="cards.html" class="active">Cards</a>
+          <a href="#grid">Grid</a>
+          <a href="#flexbox">Flexbox</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      <!-- END OF NAV MENU -->
+      <div class="container">
+        <div class="card-deck">
+          <div class="card">
+            <img src="static/img/salmon-zanahoria1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Salmón al horno con salsa de zanahoria y gengibre</h5>
+              <p class="card-text">Esta es una de nuestras recetas preferidas de pescado.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="static/img/atun.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Atún a la plancha con ajo y perejil</h5>
+              <p class="card-text">Otra de nuestras favoritas. Una auténtica delicia.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="static/img/Rigatoni-con-salsa-bolonesa.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rigatoni con salsa boloñesa</h5>
+              <p class="card-text">Una pasta buenísima que nos vamos a comer hoy con salsa boloñesa y con zanahoria.</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-deck">
+          <div class="card">
+            <img src="static/img/cordero-asado.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cordero al horno</h5>
+              <p class="card-text">Receta cubana de cordero asado al horno</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="static/img/quiche-verduras-champinones-2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Quiche de verduras y champiniones</h5>
+              <p class="card-text">Una receta riquísima de quiche de verduras para hacer al horno.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="static/img/pan-casero.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pan casero. ¿Cómo hacer pan casero?</h5>
+              <p class="card-text">La receta para hacer pan es una receta muy sencilla y que se compone de 4 ingredientes. Harina, agua, sal y levadura.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+</html>
