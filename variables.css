@@ -1,0 +1,20 @@
+ul li {
+  font-size: 12px;
+  color: red;
+}
+
+#flexbox > div.odd, #flexbox > div.even {
+  font-faminly: helverica;
+  font-weight: bold;
+  padding: 20px;
+}
+
+#flexbox > div.even {
+  background-color: lightgreen;
+}
+
+#flexbox > div.odd {
+  background-color: cyan;
+}
+
+/*# sourceMappingURL=variables.css.map */

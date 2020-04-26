@@ -1,0 +1,25 @@
+$size: 12px;
+$color: red;
+
+ul {
+  li {
+    font-size: $size;
+    color: $color
+  }
+}
+
+%boxes {
+  font-faminly: helverica;
+  font-weight: bold;
+  padding: 20px;
+}
+
+#flexbox > div.even {
+  @extend %boxes;
+  background-color: lightgreen;
+}
+
+#flexbox > div.odd {
+  @extend %boxes;
+  background-color: cyan;
+}
