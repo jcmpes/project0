@@ -1,5 +1,5 @@
 .container {
-
+  margin-top: 20px;
 }
 
 body {
@@ -95,4 +95,12 @@ body {
 
 .card-deck {
   padding: 15px;
+}
+
+/* TABLE STYLING */
+table {
+  margin: 20px;
+  padding: 20px;
+  border-collapse: collapse;
+  width: 100%;
 }
