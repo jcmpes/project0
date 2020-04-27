@@ -16,7 +16,7 @@ body {
   padding: 15px;
 }
 
-#flexbox {
+#flexbox, #homepage {
   display: flex;
   flex-wrap: wrap;
 }
